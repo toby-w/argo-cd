@@ -406,7 +406,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        k3s-version: [v1.23.17]
+        k3s-version: [v1.21.14]
     needs:
       - build-go
       - changes
